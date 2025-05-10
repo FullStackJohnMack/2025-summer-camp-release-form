@@ -51,8 +51,9 @@ export const LiabilityForm: React.FC<Props> = ({
 
   if (isSubmitSuccessful) {
     return (
-      <div>
-        <h2>Thank you! We have your form.</h2>
+      <div className="space-y-8 text-xl font-bold">
+        <h1>Thank you! We have your form. </h1>
+        <h1>Please call / text/ email New City Youth Director John Mack at (661) 889-6291 or john@newcity.church with any questions or concerns.</h1>
       </div>
     );
   }
