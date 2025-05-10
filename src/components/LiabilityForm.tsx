@@ -102,7 +102,7 @@ export const LiabilityForm: React.FC<Props> = ({
       <div>
         <label>
         <p className="font-bold">*Child Name</p>
-          <p className="text-sm italic pb-1 text-gray-500">One child per line, 'N/A' if participant is over 18</p>
+          <p className="text-sm italic pb-1 text-gray-500">One child per line, &quot;N/A&quot; if participant is over 18</p>
           <textarea
             {...register("childName", { required: true })}
             className="w-full border p-2"
@@ -115,7 +115,7 @@ export const LiabilityForm: React.FC<Props> = ({
       <div>
         <label>
         <p className="font-bold">*Child DOB</p>
-          <p className="text-sm italic pb-1 text-gray-500">One child per line, 'N/A' if participant is over 18</p>
+          <p className="text-sm italic pb-1 text-gray-500">One child per line, &quot;N/A&quot; if participant is over 18</p>
 
           <textarea
             {...register("childDOB", { required: true })}
@@ -129,7 +129,7 @@ export const LiabilityForm: React.FC<Props> = ({
       <div>
         <label>
         <p className="font-bold">*Child Address</p>
-          <p className="text-sm italic pb-1 text-gray-500">Include, city, state, and zip; 'N/A' if participant is over 18</p>
+          <p className="text-sm italic pb-1 text-gray-500">Include, city, state, and zip; &quot;N/A&quot; if participant is over 18</p>
 
           <input
             {...register("childAddress", { required: true })}
@@ -142,7 +142,7 @@ export const LiabilityForm: React.FC<Props> = ({
       <div>
         <label>
         <p className="font-bold">*Participant Special Medical Notes / Medications / Allergies</p>
-          <p className="text-sm italic pb-1 text-gray-500">"None" if there are no medical issues or medications to be aware of</p>
+          <p className="text-sm italic pb-1 text-gray-500">&quot;None&quot; if there are no medical issues or medications to be aware of</p>
           <textarea
             {...register("childMedicalNotes", { required: true })}
             className="w-full border p-2"
