@@ -1,6 +1,6 @@
 import { MongoClient } from "mongodb";
 
-let cached: { client: MongoClient | null } = { client: null };
+const cached: { client: MongoClient | null } = { client: null };
 
 export async function getMongoClient() {
 
